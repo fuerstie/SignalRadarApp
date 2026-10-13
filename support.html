@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SignalRadar Support</title>
+<meta name="description" content="Get help with SignalRadar: contact support and browse answers to common questions.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav><div class="wrap">
+  <a class="brand" href="index.html">SIGNAL<span>RADAR</span></a>
+  <ul>
+    <li><a href="index.html">App</a></li>
+    <li><a href="support.html" class="active">Support</a></li>
+    <li><a href="privacy.html">Privacy</a></li>
+  </ul>
+</div></nav>
+
+<div class="page-head wrap">
+  <h1>Support</h1>
+  <p>We answer every message personally, usually within a day or two.</p>
+</div>
+
+<section><div class="wrap">
+  <div class="contact-box">
+    <div class="kicker">APP SUPPORT</div>
+    <p style="margin:16px 0">Email us anytime:</p>
+    <a class="email" href="mailto:Kory.fuerstenberg@hotmail.com">Kory.fuerstenberg@hotmail.com</a>
+    <p style="color:var(--muted);margin-top:16px;font-size:15px">Include your iPhone model and iOS version so we can help faster.</p>
+  </div>
+</div></section>
+
+<section><div class="wrap faq" style="max-width:760px">
+  <h2>Common questions</h2>
+  <p class="lead">Quick answers before you write in.</p>
+
+  <details>
+    <summary>Why does SignalRadar need Bluetooth and Location access?</summary>
+    <p>Bluetooth access is how the app detects nearby devices, and iOS requires Location permission for Bluetooth scanning. Your location is used only to place signal readings on your own heatmaps. Nothing is uploaded anywhere.</p>
+  </details>
+
+  <details>
+    <summary>How accurate are the distance estimates?</summary>
+    <p>Distances are estimated from signal strength (RSSI), which varies with walls, interference and how each device transmits. Treat them as a guide for getting warmer or colder, and use the AR Finder plus the sonar ping to home in precisely.</p>
+  </details>
+
+  <details>
+    <summary>What does Tracker Scan actually detect?</summary>
+    <p>It watches for unknown Bluetooth Low Energy devices, such as item trackers, that appear to be moving with you over time. If one is flagged, check your belongings, car and bags. Green means no follower was found.</p>
+  </details>
+
+  <details>
+    <summary>Does the app drain my battery?</summary>
+    <p>Continuous Bluetooth scanning does use extra power, like any scanner app. Stopping the scan when you are done keeps usage minimal. The app never scans in the background without telling you.</p>
+  </details>
+
+  <details>
+    <summary>Is my scan data private?</summary>
+    <p>Yes. Everything is processed on your iPhone. There is no account, no analytics and no tracking. Local-only mode is the default, and you can wipe all app data from Settings at any time. Exports only happen when you tap export.</p>
+  </details>
+
+  <details>
+    <summary>The app is not finding a device I know is there. What should I check?</summary>
+    <p>Make sure Bluetooth is on, the app has Bluetooth and Location permission in iOS Settings, and the other device is powered and advertising. Some devices only broadcast intermittently, so give it 30 seconds. A restart of the scan also helps.</p>
+  </details>
+
+  <details>
+    <summary>Why is the Wi-Fi dBm reading an estimate?</summary>
+    <p>iOS reports 0 for Wi-Fi signal strength to apps, so SignalRadar estimates dBm from your router's response time instead. It is accurate enough to compare spots and find dead zones, but it is not a lab-grade measurement.</p>
+  </details>
+
+  <details>
+    <summary>Can the app tell which cell tower I am connected to?</summary>
+    <p>No. iOS does not tell apps which tower you are connected to. Tower locations come from the OpenCelliD database, and the coverage map is built from your own samples as you move around.</p>
+  </details>
+
+  <details>
+    <summary>Will Tracker Scan flag an AirTag that is traveling with its owner?</summary>
+    <p>An AirTag near its owner's iPhone stays invisible on iOS, so the app cannot see it either. Tracker Scan looks for unknown devices that appear to be moving with <em>you</em> across different places, which is the pattern that matters for your safety.</p>
+  </details>
+</div></section>
+
+<footer><div class="wrap">
+  <span>© 2026 Developer Kory Fuerstenberg. SignalRadar.</span>
+  <ul>
+    <li><a href="index.html">App</a></li>
+    <li><a href="privacy.html">Privacy Policy</a></li>
+  </ul>
+</div></footer>
+</body>
+</html>
