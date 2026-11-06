@@ -23,39 +23,46 @@
 </div>
 
 <section><div class="wrap prose">
-  <p class="updated">Effective date: October 6, 2026</p>
+  <p class="updated">Effective date: November 6, 2026</p>
 
   <h2>1. No data collection</h2>
   <p>SignalRadar does not collect, store, transmit or share any personal data. There are no user accounts, no analytics, no advertising identifiers and no third-party trackers in the app.</p>
 
   <h2>2. On-device processing</h2>
-  <p>All scanning, signal analysis, heatmap rendering and device identification happen locally on your iPhone. Bluetooth scan results, walk sessions, labels and settings are stored only in the app's private storage on your device.</p>
+  <p>All scanning, signal analysis, heatmap rendering and device identification happen locally on your iPhone. Bluetooth scan results, walk sessions, labels and settings are stored only in the app's private storage on your device. A room scan is turned into a floor plan that is stored only on your device, and you can delete it at any time.</p>
 
   <h2>3. Permissions and why they are needed</h2>
   <ul>
     <li><strong>Bluetooth:</strong> required to detect nearby Bluetooth devices. iOS does not allow Bluetooth scanning without it.</li>
     <li><strong>Location:</strong> required by iOS for Bluetooth scanning, and used to place your own signal readings on your personal heatmaps.</li>
-    <li><strong>Camera:</strong> used only for the AR Finder mode, which overlays signal orbs on the live camera view. Images are never saved or sent anywhere.</li>
+    <li><strong>Camera and LiDAR:</strong> the camera is used for the AR views and for the LiDAR room scan. Camera images are not recorded or uploaded.</li>
+    <li><strong>Motion and movement:</strong> SignalRadar uses your iPhone's motion sensors and ARKit to track your movement while you record Wi-Fi readings in Walk mode. This information is used only on your device to place readings on your floor plan. It is not sent anywhere.</li>
+    <li><strong>Local Network:</strong> SignalRadar asks for Local Network access so the LAN Scanner can find devices on your Wi-Fi network and so the app can measure how quickly your router responds. This information stays on your device.</li>
+    <li><strong>Siri and Shortcuts:</strong> Siri and Shortcuts actions run on your device. SignalRadar does not send your requests or results to any server.</li>
     <li><strong>Notifications:</strong> used only for the alerts you enable, such as tracker warnings or proximity alerts.</li>
   </ul>
   <p>Permission data is used solely for the features described above and never leaves your device.</p>
 
   <h2>4. Exports are yours</h2>
-  <p>Exporting scan history (JSON/CSV) or custom labels only happens when you explicitly tap export, and the file goes wherever you choose to save or share it. We never see it.</p>
+  <p>When you export a report, the file is created on your device and shared only through the share sheet destination you choose. SignalRadar does not upload your exports.</p>
 
   <h2>5. Network features</h2>
+  <p><strong>Cell tower locations.</strong> The Cellular Coverage feature shows nearby cell tower locations from the public OpenCelliD database. To fetch them, the app sends a lookup over the internet, so OpenCelliD's servers receive that request the same way any website you visit receives your connection. The request asks for public tower data only. It carries no account, no advertising profile, and nothing from your scans, labels, walk history or identity.</p>
   <p>Tools such as ping, DNS lookup, traceroute, port scan and speed test necessarily contact the network addresses you enter, exactly as any network utility does. Results stay on your device.</p>
 
-  <h2>6. Clearing your data</h2>
+  <h2>6. What leaves your device</h2>
+  <p>The only data SignalRadar sends off your device is your location, sent to OpenCelliD (opencellid.org) when you choose to load nearby cell towers. It is used only to find those towers and is not linked to your identity. SignalRadar has no accounts, no ads and no analytics.</p>
+
+  <h2>7. Clearing your data</h2>
   <p>You can delete all app data at any time from Settings inside the app, or by deleting the app, which removes its private storage from your iPhone.</p>
 
-  <h2>7. Children</h2>
+  <h2>8. Children</h2>
   <p>SignalRadar does not collect data from anyone, including children under 13.</p>
 
-  <h2>8. Changes to this policy</h2>
+  <h2>9. Changes to this policy</h2>
   <p>If this policy ever changes, the updated version will be posted on this page with a new effective date.</p>
 
-  <h2>9. Contact</h2>
+  <h2>10. Contact</h2>
   <p>Questions about privacy: <a href="mailto:Kory.fuerstenberg@hotmail.com">Kory.fuerstenberg@hotmail.com</a></p>
 </div></section>
 
